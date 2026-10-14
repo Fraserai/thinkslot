@@ -1,0 +1,21 @@
+{
+  "name": "@thinkslot/sdk",
+  "version": "0.1.0",
+  "description": "Thinkslot TypeScript SDK",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "typescript": "^5.8.3"
+  }
+}

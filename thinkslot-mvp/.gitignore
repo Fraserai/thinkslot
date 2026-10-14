@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node / TypeScript
+node_modules/
+sdk/typescript/dist/
+*.tsbuildinfo
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
